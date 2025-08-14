@@ -1,4 +1,3 @@
-// FILE: src/engine/personas.ts
 import { type Persona, type RangeCfg, type GameState, type Card } from "./types";
 
 export const RANGES: Record<"loose" | "standard" | "tight", RangeCfg> = {

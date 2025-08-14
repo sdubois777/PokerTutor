@@ -1,4 +1,3 @@
-// FILE: src/engine/types.ts
 export type Suit = "♠" | "♥" | "♦" | "♣";
 
 export type Card = { rank: number; suit: Suit };

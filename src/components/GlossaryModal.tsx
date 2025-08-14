@@ -1,5 +1,4 @@
-// FILE: src/components/GlossaryModal.tsx
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 type Gloss = { term: string; def: string };
 

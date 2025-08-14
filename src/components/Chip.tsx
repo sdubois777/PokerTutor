@@ -1,4 +1,3 @@
-// FILE: src/components/Chip.tsx
 import React from "react";
 
 export default function Chip({ children }: { children: React.ReactNode }) {

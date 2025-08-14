@@ -1,4 +1,3 @@
-// FILE: src/engine/deck.ts
 import { type Card, type Suit } from "./types";
 
 export const SUITS: Suit[] = ["♠", "♥", "♦", "♣"];

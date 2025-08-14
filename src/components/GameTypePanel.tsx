@@ -1,5 +1,3 @@
-// FILE: src/components/GameTypePanel.tsx
-import React from "react";
 import { type TableCfg } from "../engine/types";
 
 export default function GameTypePanel({

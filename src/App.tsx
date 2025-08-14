@@ -1,12 +1,11 @@
-// FILE: src/App.tsx
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { type GameState, type Persona, type RangeCfg, type TableCfg } from "./engine/types";
 import { startHand, step, minRaiseTarget, maxBet, toCall, countEligible } from "./engine/engine";
 import { RANGES, personaToRange, posIndexFromButton } from "./engine/personas";
 import { botAction } from "./engine/bot";
 import { coachHint } from "./engine/coach";
-import { clone, chipsFromBB } from "./engine/util";
+import { clone } from "./engine/util";
 
 import CardPip from "./components/CardPip";
 import Seat from "./components/Seat";

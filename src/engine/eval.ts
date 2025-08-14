@@ -1,4 +1,3 @@
-// FILE: src/engine/eval.ts
 import { type Card, type Score } from "./types";
 
 function countBy<T extends string | number>(vals: T[]) {

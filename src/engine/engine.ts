@@ -1,8 +1,7 @@
-// FILE: src/engine/engine.ts
-import type { Card, Player, GameState, TableCfg, Score } from "./types";
+import type { Player, GameState, TableCfg, Score } from "./types";
 import { makeDeck, shuffle, cardLabel } from "./deck";
 import { evaluateBest7, compareScores, describeScore, bestFive } from "./eval";
-import { clone, norm, eq } from "./util";
+import { norm, eq } from "./util";
 
 // ---------------- helpers ----------------
 

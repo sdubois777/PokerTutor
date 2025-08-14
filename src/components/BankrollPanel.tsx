@@ -1,5 +1,3 @@
-// FILE: src/components/BankrollPanel.tsx
-import React from "react";
 import { type TableCfg } from "../engine/types";
 import { chipsFromBB } from "../engine/util";
 

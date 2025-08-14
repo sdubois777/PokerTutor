@@ -1,4 +1,3 @@
-// FILE: src/engine/bot.ts
 import { type GameState, type Persona, type RangeCfg } from "./types";
 import { minRaiseTarget, maxBet, toCall, countEligible } from "./engine";
 import { AGGR, isLimpedPreflop, isPreflopUnraised, posIndexFromButton, preflopRating } from "./personas";

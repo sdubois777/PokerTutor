@@ -1,4 +1,3 @@
-// FILE: src/engine/coach.ts
 import { type GameState, type RangeCfg } from "./types";
 import { toCall } from "./engine";
 import { preflopRating, posIndexFromButton, isLimpedPreflop, isPreflopUnraised } from "./personas";

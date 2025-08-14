@@ -1,5 +1,3 @@
-// FILE: src/components/CardPip.tsx
-import React from "react";
 import { type Card } from "../engine/types";
 import { rankLabel } from "../engine/deck";
 

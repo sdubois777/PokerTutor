@@ -1,5 +1,3 @@
-// FILE: src/components/Seat.tsx
-import React from "react";
 import CardPip from "./CardPip";
 import Chip from "./Chip";
 
